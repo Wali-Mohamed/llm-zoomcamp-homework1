@@ -20,3 +20,5 @@ docker run -it \
     -e "xpack.security.enabled=false" \
     docker.elastic.co/elasticsearch/elasticsearch:8.4.3
 
+    curl http://localhost:9200
+
